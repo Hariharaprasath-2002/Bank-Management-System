@@ -1,0 +1,33 @@
+           /*CUSTOMER TABLE*/
+create table customer(cus_id number, cus_name varchar(20),cus_address varchar(20));
+insert into customer values(1,'Hari','Perambalur');
+insert into customer values(2,'Muthu','Trichy');
+insert into customer values(3,'Yeswanth','Krishnagiri');
+select * from customer;
+
+          /*ADMIN TABLE*/
+create table Admin1(admin_id number,admin_name varchar(20));
+insert into admin1 values(11,'Pooja');
+insert into admin1 values(12,'varsha');
+select * from admin1;
+
+         /*BRANCH TABLE*/
+create table branch(branch_id number,branch_name varchar(20),branch_city varchar(20));
+insert into branch values(101,'ABC','Erode');
+insert into branch values(102,'DEF','Chennai');
+insert into branch values(103,'GHI','Hosur');
+select *from branch;
+
+       /*ACCOUNT TABLE*/
+create table account1(acc_no number,acc_name varchar(20), branch varchar(20));
+insert into account1 values(1010101010101,'Harsha','Namakkal');
+insert into account1 values(1021021021021,'visha','Salem');
+select * from account1;
+
+        /*EMPLOYEE TABLE*/
+create table employee(emp_id number,emp_name varchar(20),emp_city varchar(20));
+insert into employee values(20,'Jeeva','Ariyalur');
+insert into employee values(30,'Meera','Hosur');
+select * from employee;
+
+
